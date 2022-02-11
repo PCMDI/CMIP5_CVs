@@ -369,7 +369,7 @@ for jsonName in masterTargets:
     if jsonName == 'mip_era':
         outFile = ''.join(['../', jsonName, '.json'])
     else:
-        outFile = ''.join(['../CMIP6_', jsonName, '.json'])
+        outFile = ''.join(['../CMIP5_', jsonName, '.json'])
     # Get repo version/metadata - from src/writeJson.py
 
     # Extract last recorded commit for src/writeJson.py
