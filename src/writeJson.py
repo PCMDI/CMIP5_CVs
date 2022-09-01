@@ -10,6 +10,7 @@ This script generates all controlled vocabulary (CV) json files residing this th
 """
 PJD 10 Feb 2022     - Started
 PJD 10 Feb 2022     - Updated following details at https://pcmdi.llnl.gov/mips/cmip5/docs/cmip5_data_reference_syntax.pdf?id=37
+PJD  1 Sep 2022     - Added link to notes from Karl, remapping google doc
 
 @author: durack1
 """
@@ -52,6 +53,7 @@ activity_id = {
 }
 
 # %% Experiments
+# for mapping see Karl's notes at https://docs.google.com/document/d/1bUwK6G_fVZO53UjLZbQUOuBP47PsT8lqKKhL1pjRnKg/edit
 experiment_id = {
     'piControl': 'DECK: pre-industrial control',  # Needs checking
     'historical': 'CMIP5 historical',
